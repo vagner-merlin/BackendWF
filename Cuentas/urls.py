@@ -15,7 +15,7 @@ urlpatterns = [
     path('register/', views.Register, name='register'),
     path('login/', views.Login, name='login'),
     path('profile/', views.Profile, name='profile'),
-    path('logout/', views.Logout, name='logout'),  # Agregué logout también
+    path('logout/', views.Logout, name='logout'),  # Agregué logout tambiénsss
     
     # APIs CRUD (ViewSets)
     path('', include(router.urls)),
